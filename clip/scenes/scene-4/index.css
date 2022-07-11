@@ -1,0 +1,46 @@
+* {
+    --font-size: {{ initParams.fontSize }};
+    --font-color: {{ initParams.color }};
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  color: var(--font-color);
+  font-size:var(--font-size);
+  background-color: red;
+  opacity: 0;
+}
+  
+.content{
+  position: absolute;
+  right:0%;
+  width: 70%;
+  height: 100%;
+  background-color: blue;
+}
+
+.background{
+  position: absolute;
+  right: 70%;
+  height: 100%;
+  width: 130%;
+  background-color: white;
+}
+
+.title{
+  position: absolute;
+  width: 800px;
+  height: 800px;
+  top: -175px;
+  left: 0%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

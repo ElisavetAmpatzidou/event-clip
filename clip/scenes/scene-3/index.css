@@ -1,0 +1,45 @@
+* {
+    --font-size: {{ initParams.fontSize }};
+    --font-color: {{ initParams.color }};
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  color: var(--font-color);
+  font-size:var(--font-size);
+  background-color: red;
+  opacity: 0;
+}
+  
+.content{
+  position: absolute;
+  bottom:0%;
+  width: 100%;
+  height: 70%;
+  background-color: blue;
+}
+
+.background{
+  position: absolute;
+  bottom: 70%;
+  width: 100%;
+  height: 130%;
+  background-color: white;
+}
+
+.title{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

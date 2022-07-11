@@ -1,0 +1,11 @@
+#root {
+  height: 100%;
+  background-color: black;
+}
+
+#root1,#root2,#root3,#root4{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
