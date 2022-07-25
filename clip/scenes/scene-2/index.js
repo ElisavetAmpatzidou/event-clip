@@ -24,8 +24,8 @@ const clip = new HTMLClip({
 
 
 clip.addIncident(opacity(1,".container",1),0)
-clip.addIncident(scale(0.39,".title",500),500)
-clip.addIncident(moveRight("-33%",".title",500),500)
+clip.addIncident(scale(0.52,".title",500),500)
+clip.addIncident(moveRight("-17%",".title",500),500)
 clip.addIncident(moveLeft("-30%",".background",500),2500)
 clip.addIncident(moveRight("100%",".title",500),2500)
 

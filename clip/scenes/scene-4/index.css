@@ -1,8 +1,8 @@
 * {
-    --font-size: {{ initParams.fontSize }};
-    --font-color: {{ initParams.color }};
+  --primary-color: {{ initParams.event.primaryColor }};
+  --secondary-color: {{ initParams.event.secondaryColor }};
+  --font-color: {{ initParams.event.fontColor }};
 }
-
 .container {
   display: flex;
   justify-content: center;
@@ -12,7 +12,6 @@
   height: 100%;
   color: var(--font-color);
   font-size:var(--font-size);
-  background-color: red;
   opacity: 0;
 }
   
@@ -34,13 +33,14 @@
 
 .title{
   position: absolute;
-  width: 800px;
-  height: 800px;
-  top: -175px;
-  left: 0%;
+  width: 560px;
+  height: 560px;
+  top: -55px;
+  left: 30%;
   background-color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  font-size: 65px;
 }

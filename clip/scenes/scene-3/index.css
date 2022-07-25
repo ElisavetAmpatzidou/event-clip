@@ -1,6 +1,7 @@
 * {
-    --font-size: {{ initParams.fontSize }};
-    --font-color: {{ initParams.color }};
+  --primary-color: {{ initParams.event.primaryColor }};
+  --secondary-color: {{ initParams.event.secondaryColor }};
+  --font-color: {{ initParams.event.fontColor }};
 }
 
 .container {
@@ -12,7 +13,6 @@
   height: 100%;
   color: var(--font-color);
   font-size:var(--font-size);
-  background-color: red;
   opacity: 0;
 }
   
@@ -42,4 +42,5 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  font-size: 65px;
 }

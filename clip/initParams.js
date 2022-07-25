@@ -1,23 +1,54 @@
 export default [
   {
-    name: "Blue medium",
+    name: "Default",
     value: {
-      color: "blue",
-      fontSize: "30px",
+      event:{
+        logo:"",
+        banner:"",
+        primaryColor:"red",
+        secondaryColor:"blue",
+        fontColor:"white",
+        name:"",
+        location:"",
+        startDate:"",
+        endDate:"",
+        supportEmail:"",
+        supportPhone:"",
+        otherInfo:""
+      },
+      sponsors:[
+        "url","url","url"
+      ],
+      sessions:[
+        {
+          title:"",
+          startDate:"",
+          endDate:""
+        },
+        {
+          title:"",
+          startDate:"",
+          endDate:""
+        },
+      ],
+      speakers:[
+        {
+          thumbnail:"",
+          name:"",
+          lastName:""
+        },
+        {
+          thumbnail:"",
+          name:"",
+          lastName:""
+        },
+        {
+          thumbnail:"",
+          name:"",
+          lastName:""
+        },
+      ]
+
     },
-  },
-  {
-    name: "Red big",
-    value: {
-      color: "red",
-      fontSize: "60px",
-    },
-  },
-  {
-    name: "Green small",
-    value: {
-      color: "red",
-      fontSize: "10px",
-    },
-  },
+  }, 
 ];

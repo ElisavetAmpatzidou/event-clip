@@ -15,8 +15,7 @@ const clip = new HTMLClip({
     height: "450px",
   },
   initParams: {
-    fontSize: "@initParams.fontSize",
-    color: "@initParams.color",
+    event: "@initParams.event",
   },
 });
 
